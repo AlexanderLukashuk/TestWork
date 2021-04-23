@@ -182,6 +182,16 @@ namespace TestWork
             //* ConsoleApplication.  Создайте массив размерностью в 10 
             //* элементов, выведите на экран все элементы массива в обратном 
             //* порядке и найти среднее арифметическое ряда значений.
+
+            int size = 10;
+            int[] numberArray = new int[size];
+            Random random = new Random();
+            double average = 0;
+
+            for (int i = 0; i < numberArray.Length; i++)
+            {
+                numberArray[i] = random.Next(100);
+            }
         }
     }
 }
