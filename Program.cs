@@ -20,7 +20,26 @@ namespace TestWork
             input = Console.ReadLine();
             num = int.Parse(input);
 
-            
+            if (num >= 0 && num <= 14)
+            {
+                Console.WriteLine($"Число {num} входит в промежуток [0 - 14]");
+            }
+            else if (num >= 15 && num <= 35)
+            {
+                Console.WriteLine($"Число {num} входит в промежуток [15 - 35]");
+            }
+            else if (num >= 36 && num <= 50)
+            {
+                Console.WriteLine($"Число {num} входит в промежуток [36 - 50]");
+            }
+            else if (num >= 50 && num <= 100)
+            {
+                Console.WriteLine($"Число {num} входит в промежуток [50 - 100]");
+            }
+            else
+            {
+                Console.WriteLine($"Число {num} не входит ни в один из указаных промежутков");
+            }
         }
     }
 }

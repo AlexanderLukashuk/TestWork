@@ -1,0 +1,12 @@
+/Users/sanya/работа/контрольная работа/TestWork/bin/Debug/netcoreapp3.1/TestWork.deps.json
+/Users/sanya/работа/контрольная работа/TestWork/bin/Debug/netcoreapp3.1/TestWork.runtimeconfig.json
+/Users/sanya/работа/контрольная работа/TestWork/bin/Debug/netcoreapp3.1/TestWork.runtimeconfig.dev.json
+/Users/sanya/работа/контрольная работа/TestWork/bin/Debug/netcoreapp3.1/TestWork.dll
+/Users/sanya/работа/контрольная работа/TestWork/bin/Debug/netcoreapp3.1/TestWork.pdb
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.csprojAssemblyReference.cache
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.AssemblyInfoInputs.cache
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.AssemblyInfo.cs
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.csproj.CoreCompileInputs.cache
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.dll
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.pdb
+/Users/sanya/работа/контрольная работа/TestWork/obj/Debug/netcoreapp3.1/TestWork.genruntimeconfig.cache
