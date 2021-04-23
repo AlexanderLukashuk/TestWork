@@ -192,6 +192,16 @@ namespace TestWork
             {
                 numberArray[i] = random.Next(100);
             }
+
+            for (int i = numberArray.Length - 1; i >= 0; i--)
+            {
+                Console.Write($"{numberArray[i]} ");
+                average += numberArray[i];
+            }
+            Console.WriteLine();
+
+            average /= 10;
+            Console.WriteLine($"Среднее арифметическое = {average}");
         }
     }
 }
