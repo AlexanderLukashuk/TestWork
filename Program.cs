@@ -77,6 +77,65 @@ namespace TestWork
                 }
             }
             seniority = tmp;
+
+            if (seniority >= 0 && seniority < 5)
+            {
+                prize = salary * 0.1;
+                Console.WriteLine($"Премия при выслуге до 5 лет = {prize}");
+            }
+            else if (seniority >= 5 && seniority < 10)
+            {
+                prize = salary * 0.15;
+                Console.WriteLine($"Премия при выслуге от 5 лет до 10 лет = {prize}");
+            }
+            else if (seniority >= 10 && seniority < 15)
+            {
+                prize = salary * 0.25;
+                Console.WriteLine($"Премия при выслуге от 10 лет до 15 лет = {prize}");
+            }
+            else if (seniority >= 15 && seniority < 20)
+            {
+                prize = salary * 0.35;
+                Console.WriteLine($"Премия при выслуге от 15 лет до 20 лет = {prize}");
+            }
+            else if (seniority >= 20 && seniority < 25)
+            {
+                prize = salary * 0.45;
+                Console.WriteLine($"Премия при выслуге от 20 лет до 25 лет = {prize}");
+            }
+            else
+            {
+                prize = salary * 0.5;
+                Console.WriteLine($"Премия при выслуге более 25 лет = {prize}");
+            }
+
+
+            //* 3.Дана следующая функция y = f(x):
+            //* y = 2x - 10, если x > 0
+            //* y = 0, если x = 0
+            //* y = 2 * |x| -1, если x < 0
+
+            double x;
+            double y;
+            Console.Write("Введите x: ");
+            input = Console.ReadLine();
+            x = double.Parse(input);
+
+            if (x > 0)
+            {
+                y = 2 * x - 10;
+                Console.WriteLine($"y = {y}");
+            }
+            else if (x == 0)
+            {
+                y = 0;
+                Console.WriteLine($"y = {y}");
+            }
+            else if (x < 0)
+            {
+                y = 2 * Math.Abs(x) - 1;
+                Console.WriteLine($"y = {y}");
+            }
         }
     }
 }
