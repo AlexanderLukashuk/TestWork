@@ -15,7 +15,7 @@ namespace TestWork
             //* промежутков, то выводится соответствующее сообщение.
 
             string input;
-            int num;
+            /*int num;
             Console.Write("Введите число: ");
             input = Console.ReadLine();
             num = int.Parse(input);
@@ -39,7 +39,7 @@ namespace TestWork
             else
             {
                 Console.WriteLine($"Число {num} не входит ни в один из указаных промежутков");
-            }
+            }*/
 
 
             //* 2.Используя Visual Studio, создайте проект по шаблону 
@@ -55,7 +55,7 @@ namespace TestWork
             //* выслуга от 25 лет (включительно) и более, премия составляет 50% 
             //* от заработной платы.  Результаты расчета, выведите на экран.
 
-            int salary;
+            /*int salary;
             int seniority;
             double prize;
             int tmp;
@@ -107,7 +107,7 @@ namespace TestWork
             {
                 prize = salary * 0.5;
                 Console.WriteLine($"Премия при выслуге более 25 лет = {prize}");
-            }
+            }*/
 
 
             //* 3.Дана следующая функция y = f(x):
@@ -115,7 +115,7 @@ namespace TestWork
             //* y = 0, если x = 0
             //* y = 2 * |x| -1, если x < 0
 
-            double x;
+            /*double x;
             double y;
             Console.Write("Введите x: ");
             input = Console.ReadLine();
@@ -135,7 +135,53 @@ namespace TestWork
             {
                 y = 2 * Math.Abs(x) - 1;
                 Console.WriteLine($"y = {y}");
+            }*/
+
+            //* 4.Дано два числа A и B (A<B) выведите все нечетные значения, 
+            //* расположенные между данными числами.
+
+            int A = 0;
+            int B = 0;
+            int tmpA;
+            int tmpB;
+            Console.WriteLine("Введите A и B(A < B)");
+            Console.Write("Введите A: ");
+            input = Console.ReadLine();
+            tmpA = int.Parse(input);
+            Console.Write("Введите B: ");
+            input = Console.ReadLine();
+            tmpB = int.Parse(input);
+
+            if (tmpA > tmpB)
+            {
+                while (tmpA > tmpB)
+                {
+                    Console.WriteLine("A должно быть меньше B");
+                    Console.Write("Введите A: ");
+                    input = Console.ReadLine();
+                    tmpA = int.Parse(input);
+                    Console.Write("Введите B: ");
+                    input = Console.ReadLine();
+                    tmpB = int.Parse(input);
+                }
             }
+            A = tmpA;
+            B = tmpB;
+
+            for (int i = A; i < B; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.Write($"{i} ");
+                }
+            }
+            Console.WriteLine();
+
+
+            //* 5.Используя Visual Studio, создайте проект по шаблону 
+            //* ConsoleApplication.  Создайте массив размерностью в 10 
+            //* элементов, выведите на экран все элементы массива в обратном 
+            //* порядке и найти среднее арифметическое ряда значений.
         }
     }
 }
